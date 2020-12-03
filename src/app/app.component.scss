@@ -536,3 +536,49 @@ font-family: inherit;
         font-family: inherit;
     }
 }
+
+.email-error{
+    direction: ltr;
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 2px;
+    text-align: left;
+    padding: 0px 20px;
+    a{
+        direction: ltr;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: left;
+        cursor: pointer;
+        text-decoration: none;
+        color: #f02849;
+        font-weight: bold;
+        font-family: inherit;
+    }
+}
+
+.password-error{
+    direction: ltr;
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 2px;
+    text-align: left;
+    padding: 0px 20px;
+
+    a{
+        direction: ltr;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: left;
+        cursor: pointer;
+        text-decoration: none;
+        color: #f02849;
+        font-weight: bold;
+        font-family: inherit;
+    }
+}
+
