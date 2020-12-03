@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "facebook"
+  "defaultProject": "facebook",
+  "cli": {
+    "analytics": "83559684-adb5-49de-8d7a-936fe21485fe"
+  }
 }
